@@ -1,0 +1,47 @@
+body {
+    background-color: #f06226;
+    color:#fff ;
+    font-family: 'Arial',sans-serif;
+    font-size: 14px;
+}
+#results{
+    text-align: center;
+    background-color: #f06226;
+    padding: 1px;
+    margin: 1px;
+   
+
+}
+
+#container{
+    width: 60%;
+    background: #199fdb;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+header p {
+    padding: 0px;
+    margin-top: 5px;
+    color:#000;
+    
+}
+
+section{
+    min-height: 400px;
+}
+footer{
+    text-align:center;
+}

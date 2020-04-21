@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchTool</title>
+    <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1> Search <span>Vidozz</span></h1>
+        <p>Search Videos</p> 
+        <p id="my-name">By <span> Abhinav</span></p>
+    </header>
+    <section>
+        <form id="search-form" name="search-form" onsubmit="return search()">
+            <div class="fieldcontainer">
+                <input type="search" id="query" class="search-field" placeholder="Search Youtube....">
+                <input type="submit" name="search-btn" id="search-btn" value="">
+            </div>
+        </form>
+        <ul id="results"></ul>
+        <div id="buttons"></div>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2020 , All Rights Reserved </p>  
+    </footer>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="venobox/venobox.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.venobox').venobox(); 
+});
+</script>
+</body>
+</html>
